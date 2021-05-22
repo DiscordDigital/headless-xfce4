@@ -1,3 +1,4 @@
+rm -rf /tmp/.X*
 startx &
 dbus-launch
 sleep 5
