@@ -17,5 +17,7 @@ You can install this for example on a VPS in a datacenter, and build an SSH tunn
 `docker update --restart unless-stopped xfce4-vnc`
 9. (Optional) Install themes and missing icons by opening a terminal in your VNC session and running:\
 `apk add gnome-shell`
+10. (Optional) Change your VNC password by running this inside your VNC session: (You'll be prompted for a new password)\
+`x11vnc -storepasswd ~/.vnc/passwd`
 
 ![VNC client connected to a headless-xfce4 image running on docker](https://cdn.discord.digital/xfce4-docker)
