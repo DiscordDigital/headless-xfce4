@@ -20,7 +20,7 @@ ADD start.sh /opt/scripts/start.sh
 RUN apk update
 
 # Install required packages
-RUN apk add bash x11vnc x11vnc-doc dbus-x11 xvfb xterm xorg-server xf86-video-dummy xdpyinfo xdpyinfo-doc ttf-dejavu xfce4 xfce4-terminal paper-icon-theme
+RUN apk add bash x11vnc x11vnc-doc dbus-x11 xvfb xterm xorg-server xf86-video-dummy xdpyinfo xdpyinfo-doc ttf-dejavu xfce4 xfce4-terminal
 
 # Initialize container
 RUN bash /opt/scripts/init.sh
