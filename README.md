@@ -2,7 +2,8 @@
 This docker image deploys an xfce4 desktop in a container with Alpine Linux.\
 It can be used to do basic desktop stuff, however due to the nature of VNC it performs poorly on video playback.
 
-You can install this for example on a VPS in a datacenter, and build an SSH tunnel to access a desktop on a remote machine.
+You can install this for example on a VPS in a datacenter, and build an SSH tunnel to access a desktop on a remote machine.\
+I recommend to not port forward VNC, rather use a VPN tunnel to access it.
 # headless-xfce4
 1. Clone repository on a system with docker
 2. Change directory to cloned folder
