@@ -13,7 +13,7 @@ I recommend to not port forward VNC, rather use a VPN tunnel to access it.
 5. Run image with:\
 `docker run --name xfce4-vnc -d -p 5900:5900 headless-xfce4:latest .`
 6. Use a VNC client to connect to your docker host
-7. (Optional) Change resolution in the xfce4 display settings
+7. (Optional) Change resolution in the xfce4 display settings (16:9, 4:3)
 8. (Optional) Make container always start using:\
 `docker update --restart unless-stopped xfce4-vnc`
 9. (Optional) Install themes and missing icons by opening a terminal in your VNC session and running:\
